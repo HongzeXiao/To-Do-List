@@ -1,0 +1,112 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    min-height: 95vh;
+    margin:8px;
+    background-color: #77D9F0;
+}
+
+header li{
+    display: inline;
+    padding: 10px;
+}
+
+header a{
+    text-decoration: none;
+}
+
+header{
+    margin-top: 20px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+h1{
+    color: aliceblue;
+}
+
+#heading{
+    background-color: #1684DC;
+    padding: 0 20px;
+    text-align: center;
+    width: 362.977px;
+
+}
+
+.box {
+    max-width: 400px;
+    margin: 10px auto;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+#bodying{
+    width: 28rem;
+    min-height: 400px;
+}
+
+input[type="text"] {
+    width: 320px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    padding: 3px 10px;
+    font-family: 'Comic Neue', cursive;
+    font-size: 20px;
+    font-weight: 500;
+    color: #3502b0;
+}
+
+input[type="submit"]{
+    min-height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #1684DC;
+    color: #fff;
+    font-size: 30px;
+    border: none;
+}
+
+
+.item {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #f1f1f1;
+    min-height: 70px;
+}
+
+
+.item label {
+    font-size: 20px;
+    font-weight: 500;
+    color: #3502b0;
+    margin: 0;
+    padding: 20px;
+}
+
+footer{
+    flex:0 0 auto;
+    align-items: center;
+    text-align: center;
+}
+
+img{
+    height: 200px;
+    position: relative;
+    top: -5rem;
+    left: 12rem;
+}
+
+
+
+.liBtn:checked + label {
+    text-decoration: line-through;
+  }
